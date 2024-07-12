@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(42, 79, 124);
+    color: rgb(70, 50, 50);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+#logo {
+    width: 186px;
+    position: absolute;
+    top: 10px;
+    margin-left: 1%;
+}
+#menu {
+    float: right;
+    margin-right: 33%;
+    list-style: none;
+    margin-top: 0px;
+    background-color: rgb(235, 157, 73);
+    font-size: large;
+    font-style: italic;
+
+}
+li {
+    float: left;
+    padding: 20 25 20 25;
+}
+li:hover {
+    background-color: #8b909d
+}
+#imagem_fundo {
+    background: url("IMG_0987.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#titulo {
+    color: rgb(42, 97, 164);
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    font-family: 'Playfair Display', serif;
+
+    
+}
+#subtitulo {
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  rgb(255, 154, 59);
+}
+
+.icone {
+    width: 51px;
+    color: rgb(65, 96, 146);
+}
+section {
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: rgb(42, 97, 164);
+    width: 100%;
+    
+}
+.destaque1 {
+    background-color: rgb(139, 154, 187);
+    width: 100%;
+    
+}
+.imgeco {
+    width: 90%;
+    height: 30%;
+
+}
+
+.coluna {
+    float: left;
+    padding: 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(20, 26, 141);
+}
+.justificado2 {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.centralizado {
+    text-align: center;
+    color: rgb(255, 103, 15);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.centralizado1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centralizado3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centralizado4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    background-color: #bababa;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: rgb(0, 77, 164);
+}
+
+
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #titulo {
+        font-size: 40px;
+        padding-top: 30%;
+    }
+    #subtitulo {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+    }
+    section {
+        padding: 10px;
+    }
+
+}
